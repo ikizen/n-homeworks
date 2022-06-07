@@ -1,6 +1,9 @@
 let firstName = 'Aidyn';
 const FAMILY_NAME = 'Sairan';
 var age = 22;
+let mal = null;
+let ochenKruto = undefined;
+const vajno = true;
 
 const address = 'Stepnoy-4-2';
 console.log(firstName, FAMILY_NAME, age, address);
@@ -10,6 +13,7 @@ let book = {
     year: 1956,
     author: 'J. R. R. Tolkien',
 }
+
 
 alert(book.name);
 alert(book.author);
@@ -46,6 +50,14 @@ for(let i = 0; i < dalidaShop.length; i++) {
 }
 console.log(shopThings);
 
+let e = 0;
+let shopThingsText = "";
+
+while (text[e]) {
+  shopThingsText += text[e];
+  e++;
+}
+
 function isThereAnyThings(sth) {
     return dalidaShop.includes(sth);
 }
@@ -70,6 +82,7 @@ const numbers = { firstNum, secondNum, ...otherNum } = {
     forthNum = 58;
     fifthNum = 42;
 }
+console.log(otherNum.slice())
 
 console.log(otherNum);
 
