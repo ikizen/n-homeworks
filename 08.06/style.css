@@ -1,0 +1,89 @@
+body {
+    background: #000000;
+}
+
+#background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.container {
+    position: absolute;
+    height: 300pt;
+    width: 250pt;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+}
+
+.box {
+    position: absolute;
+    height: 50%;
+    width: 103%;
+    background: -webkit-linear-gradient(45deg, rgb(40, 40, 40), rgb(133, 133, 133));
+    z-index: 4;
+    bottom: -17%;
+}
+
+#thumbnail {
+    position: absolute;
+    width: 135%;
+    top: -7%;
+    transition: 1s;
+    z-index: 3;
+}
+
+.song-artist {
+    position: absolute;
+    z-index: 4;
+    color: rgb(193, 255, 6);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 21%;
+    left: 28%;
+}
+
+.song-title {
+    position: absolute;
+    z-index: 4;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    bottom: 16%;
+    left: 28%;
+}
+
+#play-pause {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    filter: invert(1);
+    cursor: pointer;
+    bottom: 15%;
+    z-index: 4;
+    font-size: 53px;
+    left: 9%;
+}
+
+
+
+
+

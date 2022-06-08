@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+  <script src="./main.js"></script>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <video id="background" autoplay loop muted poster="">
+        <source src="./videoplayback.webm" type="video/mp4">
+        </video>
+
+  <audio src="./The Weeknd - Out of Time (Official Audio).mp4" id="song"></audio>
+
+  <div class="container">
+    <div class="box"></div>
+    <img src="./background-image.png" id="thumbnail" />
+    
+    <img src="./play-fill.svg" onclick="playPause()"     
+    id="play-pause" />
+    
+    <div class="song-artist">The Weeknd</div>
+    <div class="song-title">Out of Time</div>
+    
+  </div>
+
+</body>
+</html>
