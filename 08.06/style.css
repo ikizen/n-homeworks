@@ -1,5 +1,6 @@
 body {
     background: #000000;
+    margin: 0;
 }
 
 #background {
@@ -11,8 +12,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    filter: blur(10px);
     z-index: -1;
+    filter: blur(10px);
 }
 
 .container {
@@ -44,7 +45,7 @@ body {
 
 #thumbnail {
     position: absolute;
-    width: 135%;
+    width: 103%;
     top: -7%;
     transition: 1s;
     z-index: 3;
